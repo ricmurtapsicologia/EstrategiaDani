@@ -15,143 +15,144 @@
 </head>
 <style>
 	/* Estilos gerais */
-			body {
-			    font-family: Arial, sans-serif;
-			    margin: 0;
-			    padding: 0;
-			    background: #f4f4f4;
-			    color: #333;
-			}
-			
-			/* Banner */
-			.banner {
-			    position: relative;
-			    width: calc(100% - 40px);
-			    max-width: 1200px;
-			    margin: 40px auto;
-			    background: url('https://i.pinimg.com/736x/ba/a1/b3/baa1b3d7b8557198c231c405a2e13ec1.jpg') no-repeat center center;
-			    background-size: cover;
-			    height: 200px;
-			    display: flex;
-			    align-items: center;
-			    justify-content: center;
-			    color: white;
-			    text-align: center;
-			    border-radius: 8px;
-			    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-			}
-			
-			.banner h1 {
-			    font-size: 2.5em;
-			    font-weight: bold;
-			    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-			    margin: 0;
-			    padding: 0 20px;
-			}
-			
-			/* Container */
-			.container {
-			    max-width: 1200px;
-			    margin: 20px auto;
-			    padding: 20px;
-			    background: rgba(255, 255, 255, 0.95);
-			    border-radius: 8px;
-			    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-			}
-			
-			.section {
-			    margin-bottom: 30px;
-			    border: 1px solid #003399;
-			    border-radius: 5px;
-			}
-			
-			.section h2 {
-			    background-color: #003399;
-			    color: #fff;
-			    padding: 15px;
-			    margin: 0;
-			    cursor: pointer;
-			    font-size: 1.6em;
-			    text-align: center;
-			    border-bottom: 3px solid #ffa500;
-			    transition: background-color 0.3s;
-			}
-			
-			.section h2:hover {
-			    background-color: #0044cc;
-			}
-			
-			.section-content {
-			    display: none;
-			    padding: 15px;
-			    border-top: 2px solid #ffa500;
-			    text-align: justify;
-			    line-height: 1.6;
-			    animation: slideDown 0.3s ease-out;
-			}
-			
-			@keyframes slideDown {
-			    from {
-			        transform: translateY(-20px);
-			        opacity: 0;
-			    }
-			    to {
-			        transform: translateY(0);
-			        opacity: 1;
-			    }
-			}
-			
-			/* Botão Voltar ao Topo */
-			#back-to-top {
-			    position: fixed;
-			    bottom: 30px;
-			    right: 30px;
-			    background-color: #003399;
-			    color: white;
-			    font-size: 1.2em;
-			    border: none;
-			    padding: 10px 15px;
-			    border-radius: 5px;
-			    cursor: pointer;
-			    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-			    display: none; /* Escondido por padrão */
-			    transition: opacity 0.3s, transform 0.3s;
-			}
-			
-			#back-to-top:hover {
-			    background-color: #0044cc;
-			    transform: scale(1.1);
-			}
-			
-			footer {
-			    text-align: center;
-			    padding: 15px;
-			    background-color: rgba(0, 51, 153, 0.9);
-			    color: #fff;
-			    margin-top: 20px;
-			}
-			
-			footer p {
-			    margin: 5px 0;
-			}
-			
-			footer .social-icons {
-			    margin-top: 10px;
-			}
-			
-			footer .social-icons a {
-			    margin: 0 10px;
-			    color: white;
-			    font-size: 1.5em;
-			    text-decoration: none;
-			    transition: color 0.3s ease;
-			}
-			
-			footer .social-icons a:hover {
-			    color: #ffa500;
-			}
-			
-			/* Responsividade */
+				body {
+				    font-family: Arial, sans-serif;
+				    margin: 0;
+				    padding: 0;
+				    background: #f4f4f4;
+				    color: #333;
+				}
+				
+				/* Banner */
+				.banner {
+				    position: relative;
+				    width: calc(100% - 40px);
+				    max-width: 1200px;
+				    margin: 40px auto;
+				    background: url('https://i.pinimg.com/736x/ba/a1/b3/baa1b3d7b8557198c231c405a2e13ec1.jpg') no-repeat center center;
+				    background-size: cover;
+				    height: 200px;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    color: white;
+				    text-align: center;
+				    border-radius: 8px;
+				    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+				}
+				
+				.banner h1 {
+				    font-size: 2.5em;
+				    font-weight: bold;
+				    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+				    margin: 0;
+				    padding: 0 20px;
+				}
+				
+				/* Container */
+				.container {
+				    max-width: 1200px;
+				    margin: 20px auto;
+				    padding: 20px;
+				    background: rgba(255, 255, 255, 0.95);
+				    border-radius: 8px;
+				    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+				}
+				
+				.section {
+				    margin-bottom: 30px;
+				    border: 1px solid #003399;
+				    border-radius: 5px;
+				}
+				
+				.section h2 {
+				    background-color: #003399;
+				    color: #fff;
+				    padding: 15px;
+				    margin: 0;
+				    cursor: pointer;
+				    font-size: 1.6em;
+				    text-align: center;
+				    border-bottom: 3px solid #ffa500;
+				    transition: background-color 0.3s;
+				}
+				
+				.section h2:hover {
+				    background-color: #0044cc;
+				}
+				
+				.section-content {
+				    display: none;
+				    padding: 15px;
+				    border-top: 2px solid #ffa500;
+				    text-align: justify;
+				    line-height: 1.6;
+				    animation: slideDown 0.3s ease-out;
+				}
+				
+				@keyframes slideDown {
+				    from {
+				        transform: translateY(-20px);
+				        opacity: 0;
+				    }
+				    to {
+				        transform: translateY(0);
+				        opacity: 1;
+				    }
+				}
+				
+				/* Botão Voltar ao Topo */
+				#back-to-top {
+				    position: fixed;
+				    bottom: 30px;
+				    right: 30px;
+				    background-color: #003399;
+				    color: white;
+				    font-size: 1.2em;
+				    border: none;
+				    padding: 10px 15px;
+				    border-radius: 5px;
+				    cursor: pointer;
+				    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+				    display: none; /* Escondido por padrão */
+				    transition: opacity 0.3s, transform 0.3s;
+				}
+				
+				#back-to-top:hover {
+				    background-color: #0044cc;
+				    transform: scale(1.1);
+				}
+				
+				footer {
+				    text-align: center;
+				    padding: 15px;
+				    background-color: rgba(0, 51, 153, 0.9);
+				    color: #fff;
+				    margin-top: 20px;
+				}
+				
+				footer p {
+				    margin: 5px 0;
+				}
+				
+				footer .social-icons {
+				    margin-top: 10px;
+				}
+				
+				footer .social-icons a {
+				    margin: 0 10px;
+				    color: white;
+				    font-size: 1.5em;
+				    text-decoration: none;
+				    transition: color 0.3s ease;
+				}
+				
+				footer .social-icons a:hover {
+				    color: #ffa500;
+				}
+				
+				/* Responsividade */
+		/* Responsividade */
 	@media (max-width: 768px) {
 	
 	    .banner h1 {
@@ -171,8 +172,10 @@
 	    }
 	
 	    iframe {
-	        width: 100%; /* Ocupa 100% da largura disponível */
+	        width: 50%; /* Reduzido para 50% da largura disponível */
 	        height: auto; /* Mantém a proporção */
+	        margin: 0 auto; /* Centraliza o vídeo */
+	        display: block; /* Garante que não fique ao lado de outros elementos */
 	    }
 	
 	    /* Ajuste para vídeos ocuparem 100% em dispositivos menores */
@@ -180,29 +183,51 @@
 	        display: flex;
 	        flex-direction: column; /* Força um vídeo por linha */
 	        gap: 15px; /* Espaçamento entre vídeos */
+	        margin: 0 auto; /* Centraliza todo o conteúdo */
 	    }
 	
 	    #videos .section-content div {
 	        flex: 1 1 100%; /* Cada vídeo ocupa toda a largura */
+	        text-align: center; /* Alinha o texto no centro */
+	    }
+	
+	    #videos .section-content p {
+	        text-align: center; /* Centraliza o texto */
+	        margin: 0 10px; /* Adiciona margem para o texto não encostar na borda */
+	    }
+	
+	    /* Oculta inicialmente o conteúdo do Bônus 1 */
+	    #videos .section-content {
+	        display: none;
 	    }
 	}
 	
+	/* Configuração padrão: Exibe o texto do "Bônus 1" apenas quando clicado */
+	.section-content {
+	    display: none; /* Oculta inicialmente */
+	}
+	
+	.section-content.active {
+	    display: flex; /* Exibe o conteúdo ao ser clicado */
+	    flex-direction: column; /* Força organização em coluna */
+	    gap: 15px; /* Espaçamento uniforme */
+	}
 </style>
 <script>
 	// Mostrar botão "Voltar ao Topo"
-			window.addEventListener('scroll', () => {
-			    const backToTop = document.getElementById('back-to-top');
-			    if (window.scrollY > 300) {
-			        backToTop.style.display = 'block';
-			    } else {
-			        backToTop.style.display = 'none';
-			    }
-			});
-			
-			// Função para rolar até o topo
-			function scrollToTop() {
-			    window.scrollTo({ top: 0, behavior: 'smooth' });
-			}
+				window.addEventListener('scroll', () => {
+				    const backToTop = document.getElementById('back-to-top');
+				    if (window.scrollY > 300) {
+				        backToTop.style.display = 'block';
+				    } else {
+				        backToTop.style.display = 'none';
+				    }
+				});
+				
+				// Função para rolar até o topo
+				function scrollToTop() {
+				    window.scrollTo({ top: 0, behavior: 'smooth' });
+				}
 </script>
 </head>
 
@@ -503,19 +528,19 @@
 		</footer>
 		<script>
 			function toggleContent(element) {
-						    // Fechar todas as outras seções
-						    const allSections = document.querySelectorAll('.section-content');
-						    allSections.forEach((content) => {
-						        if (content !== element.closest('.section').querySelector('.section-content')) {
-						            content.style.display = "none"; // Fecha outras seções
-						        }
-						    });
-						
-						    // Alternar a visibilidade da seção clicada
-						    const content = element.closest('.section').querySelector('.section-content');
-						    const isVisible = content.style.display === "block";
-						    content.style.display = isVisible ? "none" : "block"; // Abre ou fecha a seção atual
-						}
+									    // Fechar todas as outras seções
+									    const allSections = document.querySelectorAll('.section-content');
+									    allSections.forEach((content) => {
+									        if (content !== element.closest('.section').querySelector('.section-content')) {
+									            content.style.display = "none"; // Fecha outras seções
+									        }
+									    });
+									
+									    // Alternar a visibilidade da seção clicada
+									    const content = element.closest('.section').querySelector('.section-content');
+									    const isVisible = content.style.display === "block";
+									    content.style.display = isVisible ? "none" : "block"; // Abre ou fecha a seção atual
+									}
 		</script>
 </body>
 
