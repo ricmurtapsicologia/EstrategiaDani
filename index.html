@@ -152,14 +152,14 @@
 			}
 			
 			@media (max-width: 768px) {
-    iframe {
-        width: 100%; /* Faz com que o vídeo ocupe 100% da largura do container */
-        height: auto; /* Ajusta automaticamente a altura mantendo a proporção */
-        max-width: 100%; /* Garante que o vídeo não ultrapasse os limites */
-    }
     .video-container {
-        padding: 0; /* Remove margens ou padding excessivos */
-        margin: 0 auto; /* Centraliza os vídeos no celular */
+        display: block; /* Garante que os vídeos fiquem em blocos separados */
+        margin: 10px auto; /* Centraliza cada vídeo e adiciona margem */
+    }
+    iframe {
+        width: 100%; /* O vídeo ocupa toda a largura do container */
+        height: auto; /* Ajusta a altura mantendo a proporção */
+        max-width: 100%; /* Garante que o vídeo não ultrapasse os limites */
     }
 }
 </style>
