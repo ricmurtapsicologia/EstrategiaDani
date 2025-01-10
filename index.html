@@ -168,9 +168,9 @@
     }
 
     #videos .section-content iframe {
-        width: 70%; /* Reduz a largura para manter os vídeos menores */
+        width: 70%; /* Mantém a largura em 70% */
         max-width: 420px; /* Define uma largura máxima */
-        height: calc((70% / 1.618) * 2 / 3); /* Mantém a proporção áurea ajustada para 2/3 da altura */
+        height: calc(((70% / 1.618) * 2 / 3) * 0.7); /* Reduz a altura atual em 30% mantendo a proporção áurea */
         margin: 15px auto; /* Adiciona espaçamento e centraliza os vídeos */
         box-sizing: border-box; /* Garante que padding e margens não afetem as dimensões */
     }
