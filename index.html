@@ -151,30 +151,17 @@
 			    color: #ffa500;
 			}
 			
-			/* Responsividade */
 			@media (max-width: 768px) {
-			@media (max-width: 768px) {
-	    .banner h1 {
-	        font-size: 2em;
-	    }
-	
-	    .banner {
-	        width: calc(100% - 20px);
-	    }
-	
-	    .container {
-	        padding: 10px;
-	    }
-	
-	    .section h2 {
-	        font-size: 1.4em;
-	    }
-	
-	    iframe {
-	        width: 100%; /* Ocupa 100% da largura disponível */
-	        height: auto; /* Mantém a proporção */
-	    }
-	}
+    iframe {
+        width: 100%; /* Faz com que o vídeo ocupe 100% da largura do container */
+        height: auto; /* Ajusta automaticamente a altura mantendo a proporção */
+        max-width: 100%; /* Garante que o vídeo não ultrapasse os limites */
+    }
+    .video-container {
+        padding: 0; /* Remove margens ou padding excessivos */
+        margin: 0 auto; /* Centraliza os vídeos no celular */
+    }
+}
 </style>
 <script>
 	// Mostrar botão "Voltar ao Topo"
