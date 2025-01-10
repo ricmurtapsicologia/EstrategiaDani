@@ -153,12 +153,15 @@
 				
 			/* Responsividade para vídeos no celular */
 @media (max-width: 768px) {
-
     #videos .section-content {
-        display: flex;
-        flex-direction: column; /* Coloca os vídeos em uma única coluna */
+        display: none; /* Oculta o conteúdo inicialmente */
+        flex-direction: column; /* Força os vídeos a ficarem um abaixo do outro */
         gap: 15px; /* Espaçamento uniforme entre os vídeos */
-        padding: 0; /* Remove qualquer padding extra */
+        padding: 0; /* Remove padding extra */
+    }
+
+    #videos .section-content.active {
+        display: flex; /* Exibe o conteúdo quando ativado */
     }
 
     #videos .section-content div {
@@ -167,8 +170,14 @@
 
     iframe {
         width: 100%; /* Ocupa toda a largura disponível */
-        height: auto; /* Mantém a proporção correta */
-        max-width: 100%; /* Garante que o vídeo nunca ultrapasse a margem */
+        height: auto; /* Mantém a proporção do vídeo */
+        max-width: 100%; /* Garante que não ultrapasse a margem */
+        display: block; /* Garante que o vídeo fique na sua própria linha */
+    }
+
+    .section h2 {
+        font-size: 1.4em; /* Ajusta o tamanho do título */
+        cursor: pointer; /* Indica que o título pode ser clicado */
     }
 }
 
