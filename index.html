@@ -151,17 +151,42 @@
 			    color: #ffa500;
 			}
 			
-			@media (max-width: 768px) {
-    .video-container {
-        display: block; /* Garante que os vídeos fiquem em blocos separados */
-        margin: 10px auto; /* Centraliza cada vídeo e adiciona margem */
-    }
-    iframe {
-        width: 100%; /* O vídeo ocupa toda a largura do container */
-        height: auto; /* Ajusta a altura mantendo a proporção */
-        max-width: 100%; /* Garante que o vídeo não ultrapasse os limites */
-    }
-}
+			/* Responsividade */
+	@media (max-width: 768px) {
+	
+	    .banner h1 {
+	        font-size: 2em;
+	    }
+	
+	    .banner {
+	        width: calc(100% - 20px);
+	    }
+	
+	    .container {
+	        padding: 10px;
+	    }
+	
+	    .section h2 {
+	        font-size: 1.4em;
+	    }
+	
+	    iframe {
+	        width: 100%; /* Ocupa 100% da largura disponível */
+	        height: auto; /* Mantém a proporção */
+	    }
+	
+	    /* Ajuste para vídeos ocuparem 100% em dispositivos menores */
+	    #videos .section-content {
+	        display: flex;
+	        flex-direction: column; /* Força um vídeo por linha */
+	        gap: 15px; /* Espaçamento entre vídeos */
+	    }
+	
+	    #videos .section-content div {
+	        flex: 1 1 100%; /* Cada vídeo ocupa toda a largura */
+	    }
+	}
+	
 </style>
 <script>
 	// Mostrar botão "Voltar ao Topo"
