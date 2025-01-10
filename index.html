@@ -168,11 +168,11 @@
     }
 
     #videos .section-content iframe {
-        width: 96%; /* Aumenta a largura dos vídeos em 20% (ajustada para respeitar margens laterais) */
-        max-width: calc(100% - 40px); /* Mantém os vídeos dentro das margens azuis */
-        height: calc((96% / 1.78) * 0.8); /* Reduz a altura em 20% mantendo a proporção 16:9 */
-        margin: 0 auto; /* Centraliza os vídeos */
-        box-sizing: border-box; /* Garante que o padding e as margens não afetem as dimensões */
+        width: 100%; /* O vídeo ocupa 100% da largura disponível */
+        max-width: 600px; /* Limita a largura máxima */
+        height: calc(100% / 1.78); /* Mantém a proporção 16:9 */
+        margin: 10px auto; /* Adiciona espaçamento vertical e centraliza os vídeos */
+        box-sizing: border-box; /* Garante que padding e margens não afetem as dimensões */
     }
 
     #videos .section-content p {
