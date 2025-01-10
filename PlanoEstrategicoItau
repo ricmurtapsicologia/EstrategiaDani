@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Plano estratégico para a Agência Itaú em Nazareno com foco em vendas, marketing e metas. Aprenda técnicas de vendas por telefone e WhatsApp.">
+	<meta name="keywords" content="Plano estratégico, Itaú, vendas por telefone, vendas pelo WhatsApp, consórcios, metas bancárias, técnicas de vendas">
+	<meta name="author" content="Richelmy Murta">
+	<title>Plano Estratégico Itaú Nazareno</title>
+	<style>
+		/* Estilos gerais */
+		body {
+		    font-family: Arial, sans-serif;
+		    margin: 0;
+		    padding: 0;
+		    background: #f4f4f4;
+		    color: #333;
+		}
+		
+		/* Banner */
+		.banner {
+		    position: relative;
+		    width: calc(100% - 40px);
+		    max-width: 1200px;
+		    margin: 40px auto;
+		    background: url('https://i.pinimg.com/736x/ba/a1/b3/baa1b3d7b8557198c231c405a2e13ec1.jpg') no-repeat center center;
+		    background-size: cover;
+		    height: 200px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    color: white;
+		    text-align: center;
+		    border-radius: 8px;
+		    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		}
+		
+		.banner h1 {
+		    font-size: 2.5em;
+		    font-weight: bold;
+		    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+		    margin: 0;
+		    padding: 0 20px;
+		}
+		
+		/* Container */
+		.container {
+		    max-width: 1200px;
+		    margin: 20px auto;
+		    padding: 20px;
+		    background: rgba(255, 255, 255, 0.95);
+		    border-radius: 8px;
+		    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		}
+		
+		.section {
+		    margin-bottom: 30px;
+		    border: 1px solid #003399;
+		    border-radius: 5px;
+		}
+		
+		.section h2 {
+		    background-color: #003399;
+		    color: #fff;
+		    padding: 15px;
+		    margin: 0;
+		    cursor: pointer;
+		    font-size: 1.6em;
+		    text-align: center;
+		    border-bottom: 3px solid #ffa500;
+		    transition: background-color 0.3s;
+		}
+		
+		.section h2:hover {
+		    background-color: #0044cc;
+		}
+		
+		.section-content {
+		    display: none;
+		    padding: 15px;
+		    border-top: 2px solid #ffa500;
+		    text-align: justify;
+		    line-height: 1.6;
+		    animation: slideDown 0.3s ease-out;
+		}
+		
+		@keyframes slideDown {
+		    from {
+		        transform: translateY(-20px);
+		        opacity: 0;
+		    }
+		    to {
+		        transform: translateY(0);
+		        opacity: 1;
+		    }
+		}
+		
+		/* Botão Voltar ao Topo */
+		#back-to-top {
+		    position: fixed;
+		    bottom: 30px;
+		    right: 30px;
+		    background-color: #003399;
+		    color: white;
+		    font-size: 1.2em;
+		    border: none;
+		    padding: 10px 15px;
+		    border-radius: 5px;
+		    cursor: pointer;
+		    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+		    display: none; /* Escondido por padrão */
+		    transition: opacity 0.3s, transform 0.3s;
+		}
+		
+		#back-to-top:hover {
+		    background-color: #0044cc;
+		    transform: scale(1.1);
+		}
+		
+		footer {
+		    text-align: center;
+		    padding: 15px;
+		    background-color: rgba(0, 51, 153, 0.9);
+		    color: #fff;
+		    margin-top: 20px;
+		}
+		
+		footer p {
+		    margin: 5px 0;
+		}
+		
+		footer .social-icons {
+		    margin-top: 10px;
+		}
+		
+		footer .social-icons a {
+		    margin: 0 10px;
+		    color: white;
+		    font-size: 1.5em;
+		    text-decoration: none;
+		    transition: color 0.3s ease;
+		}
+		
+		footer .social-icons a:hover {
+		    color: #ffa500;
+		}
+		
+		/* Responsividade */
+		@media (max-width: 768px) {
+		    .banner h1 {
+		        font-size: 2em;
+		    }
+		
+		    .banner {
+		        width: calc(100% - 20px);
+		    }
+		
+		    .container {
+		        padding: 10px;
+		    }
+		
+		    .section h2 {
+		        font-size: 1.4em;
+		    }
+		}
+	</style>
+	<script>
+		// Mostrar botão "Voltar ao Topo"
+		window.addEventListener('scroll', () => {
+		    const backToTop = document.getElementById('back-to-top');
+		    if (window.scrollY > 300) {
+		        backToTop.style.display = 'block';
+		    } else {
+		        backToTop.style.display = 'none';
+		    }
+		});
+		
+		// Função para rolar até o topo
+		function scrollToTop() {
+		    window.scrollTo({ top: 0, behavior: 'smooth' });
+		}
+	</script>
+</head>
+
+<body>
+	<div class="banner">
+		<h1>Material Terapêutico Complementar - Plano Estratégico</h1>
+	</div>
+	<div class="container">
+		<!-- Introdução -->
+		<div class="section">
+			<h2 onclick="toggleContent(this)">1. Introdução</h2>
+			<div class="section-content">
+				<p> Este plano foi desenvolvido como um material terapêutico complementar, destinado especificamente à paciente D.R.R., com o objetivo de oferecer suporte estratégico e comportamental. Ele aborda os desafios enfrentados pela agência Itaú em Nazareno e apresenta ferramentas práticas para aprimorar estratégias de marketing, vendas e melhorias operacionais, com foco na aplicação terapêutica. </p>
+				<p> O propósito principal é auxiliar no desenvolvimento de habilidades como organização, planejamento estratégico e relacionamento interpessoal, ao mesmo tempo em que promove o fortalecimento do vínculo com públicos estratégicos, como aposentados, agricultores, pequenos comerciantes e trabalhadores da mineradora local. Este material busca integrar aspectos práticos com reflexões terapêuticas, promovendo crescimento pessoal e profissional. </p>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<div class="section">
+			<h2 onclick="toggleContent(this)">2. Diagnóstico da Situação Atual</h2>
+			<div class="section-content">
+				<p><strong>2.1. Portabilidade de Conta Salário:</strong></p>
+				<p>Os clientes utilizam a conta-salário do Itaú, mas realizam portabilidade dos benefícios para contas correntes em outros bancos, deixando de movimentar recursos no Itaú.</p>
+				<p><strong>2.2. Baixa Adesão a Produtos:</strong></p>
+				<p>Poucas vendas de consórcios, seguros, cartões de crédito e outros itens do portfólio.</p>
+				<p><strong>2.3. Dificuldade em Criar Novas Contas Correntes:</strong></p>
+				<p>Pouco crescimento na base de clientes que utilizam o Itaú como banco principal.</p>
+				<p><strong>2.4. Falta de Engajamento Digital:</strong></p>
+				<p>Resistência dos clientes, especialmente aposentados, ao uso de canais digitais.</p>
+				<p><strong>2.5. Concorrência com Fintechs e Bancos Locais:</strong></p>
+				<p>O SICOOB possui uma agência física na cidade, e fintechs atraem clientes com tarifas reduzidas e maior praticidade.</p>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<!-- Recursos Disponíveis -->
+		<div class="section">
+			<h2 onclick="toggleContent(this)">3. Recursos Disponíveis</h2>
+			<div class="section-content">
+				<p><strong>3.1. Equipe:</strong></p>
+				<p>Gerente e duas funcionárias.</p>
+				<p><strong>3.2. Infraestrutura:</strong></p>
+				<p>Caixa eletrônico disponível na agência.</p>
+				<p><strong>3.3. Localização Estratégica:</strong></p>
+				<p>Agência no centro da cidade, de fácil acesso.</p>
+				<p><strong>3.4. Ferramentas Digitais:</strong></p>
+				<p>App Itaú, internet banking, suporte do sistema GERA.</p>
+				<p><strong>3.5. Concorrência Local:</strong></p>
+				<p>SICOOB como banco cooperativo e fintechs como Nubank, C6 Bank e Banco Inter.</p>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<!-- Análise FOFA com Soluções -->
+		<div class="section">
+			<h2 onclick="toggleContent(this)">4. Análise FOFA com Soluções</h2>
+			<div class="section-content">
+				<!-- SEO Explicação FOFA -->
+				<p><strong>O que é FOFA?</strong></p>
+				<p> A análise FOFA é uma ferramenta estratégica que avalia os <strong>F</strong>orças, <strong>O</strong>portunidades, <strong>F</strong>raquezas e <strong>A</strong>meaças de uma organização. Essa metodologia é amplamente utilizada para identificar pontos fortes e fracos internos, assim como oportunidades e riscos externos, auxiliando na criação de estratégias eficazes para alcançar objetivos organizacionais. </p>
+				<p> A aplicação da análise FOFA permite uma visão ampla e estruturada da posição da empresa no mercado, sendo essencial para decisões estratégicas e identificação de áreas de melhoria e crescimento. Neste contexto, aplicamos a análise FOFA para compreender a realidade da Agência Itaú em Nazareno. </p>
+				<p><strong>4.1. Forças:</strong></p>
+				<ul>
+					<li>Exclusividade como um dos poucos bancos tradicionais na cidade.</li>
+					<li>Reputação consolidada do Itaú como banco seguro e confiável.</li>
+					<li>Portfólio diversificado de produtos financeiros.</li>
+					<li>Localização acessível e central.</li>
+					<li>Ferramentas digitais robustas e seguras, com suporte de qualidade.</li>
+				</ul>
+				<p><strong>Soluções para Forças:</strong></p>
+				<ul>
+					<li>Usar a reputação do banco para criar campanhas de confiança.</li>
+					<li>Implementar painéis visuais na agência destacando a segurança e benefícios dos produtos Itaú.</li>
+					<li>Aumentar o foco no portfólio diversificado, apresentando simulações personalizadas no atendimento.</li>
+				</ul>
+				<p><strong>4.2. Fraquezas:</strong></p>
+				<ul>
+					<li>Resistência dos aposentados ao uso de tecnologia.</li>
+					<li>Equipe reduzida, limitando a capacidade de execução de ações.</li>
+					<li>Falta de estratégias específicas para reter contas-salário.</li>
+					<li>Pouca diversificação nos produtos voltados para agricultores e mineradores.</li>
+					<li>Comunicação visual insuficiente para atrair novos clientes.</li>
+				</ul>
+				<p><strong>Soluções para Fraquezas:</strong></p>
+				<ul>
+					<li>Criar folhetos específicos para aposentados, destacando os benefícios de crédito consignado e pacotes odontológicos e médicos.</li>
+					<li>Usar fotos de idosos felizes em materiais publicitários como gatilhos mentais.</li>
+					<li>Levantar datas de aniversário de clientes para enviar e-mails e mensagens personalizadas de parabéns em nome da gerente.</li>
+					<li>Dividir tarefas operacionais com as funcionárias para liberar tempo da gerente para ações estratégicas, como contato direto com clientes-chave.</li>
+				</ul>
+				<p><strong>4.3. Oportunidades:</strong></p>
+				<ul>
+					<li>Parcerias locais com mineradora, sindicatos e cooperativas.</li>
+					<li>Potencial de ampliar o uso do app Itaú, posicionando-o como uma solução segura e prática.</li>
+					<li>Criação de pacotes integrados de crédito, seguros e assistência médica/odontológica.</li>
+					<li>Crescente demanda por educação financeira em cidades menores.</li>
+					<li>Comunicação visual mais atrativa com QR Codes e painéis explicativos.</li>
+				</ul>
+				<p><strong>Soluções para Oportunidades:</strong></p>
+				<ul>
+					<li>Firmar parcerias locais com entidades para oferecer pacotes financeiros personalizados.</li>
+					<li>Ampliar a visibilidade dos serviços digitais com painéis e tutoriais visuais claros e acessíveis na agência.</li>
+					<li>Promover pacotes integrados com simulações personalizadas durante o atendimento.</li>
+				</ul>
+				<p><strong>4.4. Ameaças:</strong></p>
+				<ul>
+					<li>Concorrência direta do SICOOB e fintechs digitais.</li>
+					<li>Contas-salário usadas apenas para portabilidade, sem movimentação no Itaú.</li>
+					<li>Dependência de setores econômicos como mineração e agropecuária.</li>
+					<li>Atração de clientes jovens pelas fintechs com tarifas reduzidas.</li>
+					<li>Desconhecimento dos benefícios do Itaú pelos clientes.</li>
+				</ul>
+				<p><strong>Soluções para Ameaças:</strong></p>
+				<ul>
+					<li>Monitorar semanalmente contas com portabilidade ativa e oferecer soluções personalizadas para reverter o uso em outros bancos.</li>
+					<li>Criar campanhas de marketing digital focadas na centralização financeira no Itaú.</li>
+					<li>Realizar levantamento de clientes em potencial nos setores de mineração e agropecuária e oferecer pacotes exclusivos.</li>
+				</ul>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<!-- Plano de Ação -->
+		<div class="section">
+			<h2 onclick="toggleContent(this)">5. Plano de Ação</h2>
+			<div class="section-content">
+				<p><strong>5.1. Comunicação Visual e Estratégias de Engajamento</strong></p>
+				<p><strong>QR Codes e Informativos Digitais:</strong></p>
+				<ul>
+					<li>Posicionar QR Codes em locais estratégicos da agência com informações sobre consórcios, cartões de crédito, seguros e investimentos.</li>
+					<li>Oferecer QR Codes que direcionem para vídeos curtos explicativos sobre os produtos.</li>
+				</ul>
+				<p><strong>Painéis Visuais e Panfletos:</strong></p>
+				<ul>
+					<li>Instalar painéis com imagens de idosos e agricultores felizes utilizando produtos do Itaú, destacando mensagens como “Seu futuro seguro começa aqui”.</li>
+					<li>Panfletos segmentados por perfil:</li>
+					<ul>
+						<li><strong>Aposentados:</strong> Benefícios do crédito consignado e seguros.</li>
+						<li><strong>Agricultores:</strong> Linhas de crédito rural e seguros de máquinas.</li>
+						<li><strong>Jovens:</strong> Cartões com cashback e programas de pontos.</li>
+					</ul>
+				</ul>
+				<p><strong>Gatilhos Mentais e Relacionamento:</strong></p>
+				<ul>
+					<li>Levantar dados de aniversário de clientes e enviar mensagens personalizadas de parabéns por e-mail e WhatsApp, assinadas pela gerente.</li>
+					<li>Criar mensagens com frases de impacto como: “Cuidamos do seu futuro, hoje”.</li>
+				</ul>
+				<p><strong>Divulgação via WhatsApp:</strong></p>
+				<ul>
+					<li>Criar uma agenda semanal de mensagens automáticas e personalizadas sobre produtos financeiros.</li>
+					<li>Exemplos: Segunda-feira para consórcios, terça-feira para seguros e assim por diante.</li>
+				</ul>
+				<p><strong>5.2. Retenção de Aposentados</strong></p>
+				<p><strong>Acompanhamento de Portabilidade:</strong></p>
+				<ul>
+					<li>Identificar semanalmente aposentados que utilizam portabilidade e apresentar soluções personalizadas para incentivar o uso da conta do Itaú.</li>
+				</ul>
+				<p><strong>Pacotes Exclusivos:</strong></p>
+				<ul>
+					<li>Oferecer pacotes integrados de crédito consignado, seguros médicos, odontológicos e de vida, destacando economia e praticidade.</li>
+				</ul>
+				<p><strong>Espaço Acolhedor:</strong></p>
+				<ul>
+					<li>Criar uma área dedicada na agência com assentos confortáveis, água, café e materiais informativos adaptados ao público idoso.</li>
+				</ul>
+				<p><strong>Contato Regular:</strong></p>
+				<ul>
+					<li>Manter contato frequente com aposentados por telefone e WhatsApp, oferecendo soluções financeiras personalizadas e reforçando o relacionamento.</li>
+				</ul>
+				<p><strong>5.3. Estratégias de Vendas para o Portfólio de Metas</strong></p>
+				<p><strong>Consórcios:</strong></p>
+				<ul>
+					<li>Utilizar simulações personalizadas no atendimento presencial e por telefone.</li>
+					<li>Destacar vantagens em termos de economia para aposentados e agricultores.</li>
+				</ul>
+				<p><strong>Seguros:</strong></p>
+				<ul>
+					<li>Usar exemplos práticos durante o atendimento, como a proteção financeira em emergências.</li>
+					<li>Criar folhetos com coberturas específicas para cada público.</li>
+				</ul>
+				<p><strong>Cartões de Crédito:</strong></p>
+				<ul>
+					<li>Destacar programas de pontos e cashback em atendimentos presenciais e ligações.</li>
+					<li>Usar comparativos em painéis para mostrar economia e benefícios.</li>
+				</ul>
+				<p><strong>Investimentos:</strong></p>
+				<ul>
+					<li>Apresentar CDBs e outros produtos de baixo risco como opções seguras e simples.</li>
+					<li>Realizar atendimentos personalizados com foco na educação financeira para novos investidores.</li>
+				</ul>
+				<p><strong>Técnicas de Telemarketing:</strong></p>
+				<ul>
+					<li>Criar scripts específicos para abordar cada produto.</li>
+					<li>Usar técnicas de PNL (Programação Neurolinguística) para criar conexão e confiança no cliente.</li>
+				</ul>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<!-- Conclusão -->
+		<div class="section">
+			<h2 onclick="toggleContent(this)">6. Conclusão</h2>
+			<div class="section-content">
+				<p> Com a implementação deste plano detalhado, a agência Itaú em Nazareno poderá: </p>
+				<ul>
+					<li>Alcançar suas metas de retenção e ampliação de clientes.</li>
+					<li>Fortalecer o relacionamento com públicos estratégicos, como aposentados, agricultores e trabalhadores da mineradora local.</li>
+					<li>Aumentar a adesão ao portfólio de produtos, como consórcios, seguros e cartões de crédito.</li>
+				</ul>
+				<p> A combinação de <strong>estratégias visuais</strong>, <strong>digitais</strong> e <strong>relacionais</strong> permitirá transformar desafios em oportunidades de crescimento sustentável, consolidando a presença do Itaú como uma instituição financeira confiável e inovadora na região. </p>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<!-- Vídeos -->
+		<div class="section" id="videos">
+			<h2 onclick="toggleContent(this)">Bônus 1: Aprenda a Vender - Vídeos</h2>
+			<div class="section-content">
+				<!-- Introdução com SEO -->
+				<p><strong>Como aumentar suas vendas com técnicas específicas de teleatendimento, WhatsApp e estratégias avançadas:</strong></p>
+				<p>Descubra as melhores práticas para potencializar suas vendas, utilizando ferramentas modernas e técnicas psicológicas. Abaixo, exploramos as principais estratégias para otimizar seu desempenho em vendas:</p>
+				<!-- Técnicas de Vendas por Teleatendimento -->
+				<h3>Técnicas de Vendas por Teleatendimento:</h3>
+				<ul>
+					<li><strong>Tom de voz:</strong> Use um tom confiante e amigável. Ajuste sua entonação para demonstrar entusiasmo e empatia, gerando conexão com o cliente.</li>
+					<li><strong>Scripts de vendas:</strong> Estruture um roteiro claro, mas seja flexível para adaptar suas falas às necessidades do cliente. Inclua perguntas abertas como "O que seria mais importante para você em uma solução como esta?".</li>
+					<li><strong>Escuta ativa:</strong> Preste atenção no que o cliente está dizendo. Faça anotações e responda diretamente às dúvidas ou objeções apresentadas.</li>
+					<li><strong>Call-to-Action (CTA):</strong> Finalize a ligação com um CTA claro, como "Podemos agendar sua próxima etapa agora mesmo?" ou "Posso enviar um contrato para sua análise?".</li>
+				</ul>
+				<!-- Técnicas de Vendas pelo WhatsApp -->
+				<h3>Técnicas de Vendas pelo WhatsApp:</h3>
+				<ul>
+					<li><strong>Mensagens personalizadas:</strong> Use o nome do cliente e referências específicas às suas necessidades para criar mensagens impactantes.</li>
+					<li><strong>Conteúdo multimídia:</strong> Utilize imagens, vídeos explicativos e links curtos para destacar os benefícios de seus produtos ou serviços.</li>
+					<li><strong>Automação:</strong> Ferramentas como listas de transmissão e chatbots podem ser usadas para economizar tempo e escalar as interações.</li>
+					<li><strong>Follow-up:</strong> Envie lembretes educados para clientes que não responderam, utilizando frases como "Olá, só passando para saber se você tem alguma dúvida sobre nossa oferta!".</li>
+				</ul>
+				<!-- Programação Neurolinguística (PNL) -->
+				<h3>Estratégias de Programação Neurolinguística (PNL):</h3>
+				<ul>
+					<li><strong>Espelhamento:</strong> Reflita o comportamento ou estilo de comunicação do cliente para criar empatia. Por exemplo, se o cliente fala de forma mais técnica, use termos similares.</li>
+					<li><strong>Ancoragem:</strong> Associe emoções positivas aos seus produtos ou serviços. Exemplo: "Imagine como seria relaxante resolver esse problema de forma tão simples!".</li>
+					<li><strong>Histórias:</strong> Conte histórias de sucesso relacionadas ao produto. "Outro cliente usou esse serviço e economizou 20% em suas despesas mensais."</li>
+				</ul>
+				<!-- Técnicas de Persuasão e Gatilhos Mentais -->
+				<h3>Persuasão e Gatilhos Mentais:</h3>
+				<ul>
+					<li><strong>Escassez:</strong> "Esta oferta estará disponível apenas até o final da semana, aproveite enquanto há vagas!".</li>
+					<li><strong>Prova social:</strong> "Mais de 500 clientes já confiaram neste produto e estão satisfeitos com os resultados."</li>
+					<li><strong>Autoridade:</strong> "Este produto foi desenvolvido com base em pesquisas realizadas por especialistas da área."</li>
+					<li><strong>Reciprocidade:</strong> Ofereça algo antes de pedir algo em troca. Exemplo: um eBook gratuito ou um teste do serviço.</li>
+				</ul>
+				<p>Essas técnicas, quando aplicadas de forma estratégica, podem melhorar significativamente seus resultados em vendas. Combine práticas tecnológicas com habilidades de comunicação humana para maximizar seu impacto.</p>
+				<!-- Galeria de Vídeos -->
+				<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: space-between;">
+					<!-- Video 1 -->
+					<div style="flex: 1 1 30%; box-sizing: border-box; text-align: center;">
+						<p><strong>1. Técnicas de Vendas pelo WhatsApp:</strong></p>
+						<iframe src="https://www.youtube.com/embed/B337-JzY6wc" title="Técnicas de Vendas pelo WhatsApp" style="width: 480px; height: 297px; border: none;"></iframe>
+					</div>
+					<!-- Video 2 -->
+					<div style="flex: 1 1 30%; box-sizing: border-box; text-align: center;">
+						<p><strong>2. Técnica de Vendas por Telefone:</strong></p>
+						<iframe src="https://www.youtube.com/embed/frATQxPRkjA" title="Técnica de Vendas por Telefone" style="width: 480px; height: 297px; border: none;"></iframe>
+					</div>
+					<!-- Video 3 -->
+					<div style="flex: 1 1 30%; box-sizing: border-box; text-align: center;">
+						<p><strong>3. Como Vender Consórcios no Banco:</strong></p>
+						<iframe src="https://www.youtube.com/embed/65h2DvSXBp0" title="Como Vender Consórcios" style="width: 480px; height: 297px; border: none;"></iframe>
+					</div>
+					<!-- Video 4 -->
+					<div style="flex: 1 1 30%; box-sizing: border-box; text-align: center;">
+						<p><strong>4. Como Bater Metas no Banco 1:</strong></p>
+						<iframe src="https://www.youtube.com/embed/enECQ-YkTuc" title="Como Bater Metas no Banco 1" style="width: 480px; height: 297px; border: none;"></iframe>
+					</div>
+					<!-- Video 5 -->
+					<div style="flex: 1 1 30%; box-sizing: border-box; text-align: center;">
+						<p><strong>5. Como Bater Metas no Banco 2:</strong></p>
+						<iframe src="https://www.youtube.com/embed/ORGx14Lh1lA" title="Como Bater Metas no Banco 2" style="width: 480px; height: 297px; border: none;"></iframe>
+					</div>
+				</div>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<!-- Material Escrito -->
+		<div class="section">
+			<h2 onclick="toggleContent(this)">Bônus 2: Livro Manual de Vendas para Novos Vendedores</h2>
+			<div class="section-content">
+				<p>Melhore suas estratégias de vendas com o <strong>Manual de Vendas para Novos Vendedores</strong>. Este material é indispensável para vendedores iniciantes e profissionais que desejam alcançar seus objetivos.</p>
+				<div style="text-align: center; margin: 20px 0;">
+					<a class="cta" href="https://memoria.ifrn.edu.br/bitstream/handle/1044/1087/Manual%20de%20Vendas%20Novos%20Vendedores%20-%20Ebook.pdf?sequence=1&isAllowed=y" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ffa500; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background-color 0.3s;"> Baixar Manual de Vendas </a>
+				</div>
+				<button class="toggle-btn" onclick="toggleContent(this)">Fechar</button>
+			</div>
+		</div>
+		<footer>
+			<p>© 2025 Richelmy Murta Psicólogo Clínico</p>
+			<p>Especialista em Terapia Cognitivo-Comportamental</p>
+			<div class="social-icons">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</footer>
+		<script>
+			function toggleContent(element) {
+			    // Fechar todas as outras seções
+			    const allSections = document.querySelectorAll('.section-content');
+			    allSections.forEach((content) => {
+			        if (content !== element.closest('.section').querySelector('.section-content')) {
+			            content.style.display = "none"; // Fecha outras seções
+			        }
+			    });
+			
+			    // Alternar a visibilidade da seção clicada
+			    const content = element.closest('.section').querySelector('.section-content');
+			    const isVisible = content.style.display === "block";
+			    content.style.display = isVisible ? "none" : "block"; // Abre ou fecha a seção atual
+			}
+		</script>
+</body>
+
+</html>
