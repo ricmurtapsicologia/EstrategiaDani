@@ -151,67 +151,25 @@
 				    color: #ffa500;
 				}
 				
-				/* Responsividade */
+			/* Responsividade para vídeos no celular */
 @media (max-width: 768px) {
 
-    .banner h1 {
-        font-size: 2em;
-    }
-
-    .banner {
-        width: calc(100% - 20px);
-    }
-
-    .container {
-        padding: 10px;
-    }
-
-    .section h2 {
-        font-size: 1.4em;
-    }
-
-    iframe {
-        width: 50%; /* Reduzido para 50% da largura disponível */
-        max-width: calc(100% - 20px); /* Garante que não ultrapasse a margem */
-        height: auto; /* Mantém a proporção */
-        margin: 0 auto; /* Centraliza o vídeo */
-        display: block; /* Garante que não fique ao lado de outros elementos */
-    }
-
-    /* Ajuste para vídeos ocuparem 100% em dispositivos menores */
     #videos .section-content {
         display: flex;
-        flex-direction: column; /* Força um vídeo por linha */
-        gap: 15px; /* Espaçamento entre vídeos */
-        margin: 0 auto; /* Centraliza todo o conteúdo */
+        flex-direction: column; /* Coloca os vídeos em uma única coluna */
+        gap: 15px; /* Espaçamento uniforme entre os vídeos */
+        padding: 0; /* Remove qualquer padding extra */
     }
 
     #videos .section-content div {
-        flex: 1 1 100%; /* Cada vídeo ocupa toda a largura */
-        text-align: center; /* Alinha o texto no centro */
+        text-align: center; /* Centraliza os vídeos */
     }
 
-    #videos .section-content p {
-        text-align: justify; /* Justifica o texto */
-        margin: 0 10px; /* Adiciona margem para o texto não encostar na borda */
+    iframe {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: auto; /* Mantém a proporção correta */
+        max-width: 100%; /* Garante que o vídeo nunca ultrapasse a margem */
     }
-
-    /* Oculta inicialmente o conteúdo do Bônus 1 */
-    #videos .section-content {
-        display: none; /* Oculta inicialmente */
-    }
-}
-
-/* Configuração padrão: Exibe o texto do "Bônus 1" apenas quando clicado */
-.section-content {
-    display: none; /* Oculta inicialmente */
-    text-align: justify; /* Justifica o texto para todas as seções */
-}
-
-.section-content.active {
-    display: flex; /* Exibe o conteúdo ao ser clicado */
-    flex-direction: column; /* Força organização em coluna */
-    gap: 15px; /* Espaçamento uniforme */
 }
 
 </style>
