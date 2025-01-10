@@ -151,33 +151,45 @@
 				    color: #ffa500;
 				}
 				
-			/* Responsividade para vídeos no celular */
+			/* Responsividade para a seção de bônus */
 @media (max-width: 768px) {
-    #videos .section-content {
-        display: none; /* Oculta o conteúdo inicialmente */
-        flex-direction: column; /* Força os vídeos a ficarem um abaixo do outro */
-        gap: 15px; /* Espaçamento uniforme entre os vídeos */
-        padding: 0; /* Remove padding extra */
-    }
-
-    #videos .section-content.active {
-        display: flex; /* Exibe o conteúdo quando ativado */
-    }
-
+    #videos .section-content,
     #videos .section-content div {
-        text-align: center; /* Centraliza os vídeos */
+        display: flex; /* Define um layout flexível */
+        flex-direction: column; /* Organiza os elementos em coluna */
+        justify-content: center; /* Centraliza os vídeos horizontalmente */
+        align-items: center; /* Centraliza os vídeos horizontalmente */
+        text-align: justify; /* Justifica os textos */
+        gap: 20px; /* Espaçamento uniforme entre os vídeos */
+        padding: 0 15px; /* Adiciona margens laterais */
     }
 
-    iframe {
-        width: 100%; /* Ocupa toda a largura disponível */
-        height: auto; /* Mantém a proporção do vídeo */
-        max-width: 100%; /* Garante que não ultrapasse a margem */
-        display: block; /* Garante que o vídeo fique na sua própria linha */
+    #videos .section-content iframe {
+        width: 100%; /* O vídeo ocupa 100% da largura do container */
+        max-width: 350px; /* Limita a largura máxima para vídeos em dispositivos pequenos */
+        height: auto; /* Mantém a proporção dos vídeos */
+        margin: 0 auto; /* Centraliza os vídeos */
     }
 
-    .section h2 {
-        font-size: 1.4em; /* Ajusta o tamanho do título */
-        cursor: pointer; /* Indica que o título pode ser clicado */
+    #videos .section-content p {
+        text-align: justify; /* Textos justificados */
+        line-height: 1.6; /* Melhor espaçamento entre linhas */
+    }
+
+    #videos h3 {
+        text-align: center; /* Centraliza os títulos para melhor aparência */
+        font-size: 1.2em; /* Ajusta o tamanho da fonte */
+        margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+    }
+
+    #videos ul {
+        text-align: justify; /* Lista com textos justificados */
+        padding-left: 20px; /* Espaçamento interno para alinhar os itens */
+        margin-bottom: 20px; /* Espaçamento inferior */
+    }
+
+    #videos ul li {
+        margin-bottom: 10px; /* Espaçamento entre itens da lista */
     }
 }
 
