@@ -153,9 +153,8 @@
 				
 			/* Responsividade para a seção de bônus */
 @media (max-width: 768px) {
-    #videos .section-content,
-    #videos .section-content div {
-        display: none;
+    #videos .section-content {
+        display: none; /* Mantém a seção oculta inicialmente */
         flex-direction: column; /* Organiza os elementos em coluna */
         justify-content: center; /* Centraliza os vídeos horizontalmente */
         align-items: center; /* Centraliza os vídeos horizontalmente */
@@ -164,9 +163,10 @@
         padding: 0 15px; /* Adiciona margens laterais */
     }
 
- #videos .section-content.active {
+    #videos .section-content.active {
         display: flex; /* Exibe o conteúdo quando ativado */
     }
+
     #videos .section-content iframe {
         width: 100%; /* O vídeo ocupa 100% da largura do container */
         max-width: 350px; /* Limita a largura máxima para vídeos em dispositivos pequenos */
@@ -195,7 +195,6 @@
         margin-bottom: 10px; /* Espaçamento entre itens da lista */
     }
 }
-
 
 </style>
 <script>
