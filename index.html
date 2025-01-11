@@ -171,14 +171,13 @@
    iframe {
     width: 90%; /* Ajusta o vídeo para ocupar toda a largura disponível */
     max-width: 560px; /* Limita a largura máxima */
-    height: 250px !important; /* Define uma altura fixa e força sua aplicação */
+    aspect-ratio: 16 / 9; /* Define a proporção padrão de um vídeo widescreen */
+    height: auto; /* Calcula automaticamente a altura com base na largura e no ratio */
     display: block; /* Garante que o vídeo fique como um bloco */
     margin: 0 auto; /* Centraliza o vídeo horizontalmente */
     border-radius: 8px; /* Bordas arredondadas */
-    overflow: hidden; /* Garante que não haja conteúdo fora do iframe visível */
-    object-fit: contain;
+    overflow: hidden; /* Remove qualquer excesso */
 }
-
 
     #videos .section-content p {
         text-align: justify; /* Texto justificado */
