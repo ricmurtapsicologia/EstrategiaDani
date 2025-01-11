@@ -151,49 +151,47 @@
 				    color: #ffa500;
 				}
 				
-			/* Responsividade para a seção de bônus */
+			/* Responsividade para vídeos no celular */
 @media (max-width: 768px) {
     #videos .section-content {
-        display: none; /* Mantém a seção oculta inicialmente */
-        flex-direction: column; /* Organiza os elementos em coluna */
-        justify-content: center; /* Centraliza os vídeos horizontalmente */
-        align-items: center; /* Centraliza os vídeos horizontalmente */
-        text-align: justify; /* Justifica os textos */
+        display: flex;
+        flex-direction: column; /* Vídeos em uma única coluna */
         gap: 20px; /* Espaçamento uniforme entre os vídeos */
-        padding: 0 15px; /* Adiciona margens laterais */
+        padding: 10px; /* Espaçamento interno */
+        margin: 0 auto; /* Centraliza o bloco */
+        text-align: center; /* Centraliza o texto e vídeos */
+        overflow-x: hidden; /* Remove qualquer rolagem horizontal */
     }
 
-    #videos .section-content.active {
-        display: flex; /* Exibe o conteúdo quando ativado */
+    #videos .section-content div {
+        width: 100%; /* O bloco do vídeo ocupa 100% da largura */
     }
 
-    #videos .section-content iframe {
-        width: 70%; /* Mantém a largura em 70% */
-        max-width: 420px; /* Define uma largura máxima */
-        height: calc(((70% / 1.618) * 2 / 3) * 0.7); /* Reduz a altura atual em 30% mantendo a proporção áurea */
-        margin: 15px auto; /* Adiciona espaçamento e centraliza os vídeos */
-        box-sizing: border-box; /* Garante que padding e margens não afetem as dimensões */
+    iframe {
+        width: 100%; /* Ajusta o vídeo para ocupar toda a largura disponível */
+        max-width: 560px; /* Limita a largura máxima */
+        height: auto; /* Mantém a proporção */
+        display: block; /* Garante que o vídeo fique como um bloco */
+        margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+        border-radius: 8px; /* Bordas arredondadas */
     }
 
     #videos .section-content p {
-        text-align: justify; /* Textos justificados */
-        line-height: 1.6; /* Melhor espaçamento entre linhas */
+        text-align: justify; /* Texto justificado */
+        margin: 0 10px; /* Espaçamento lateral */
+        font-size: 1rem; /* Ajusta o tamanho do texto */
     }
 
-    #videos h3 {
-        text-align: center; /* Centraliza os títulos para melhor aparência */
-        font-size: 1.2em; /* Ajusta o tamanho da fonte */
-        margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+    /* Oculta inicialmente o conteúdo do Bônus 1 */
+    #videos .section-content {
+        display: none; /* Esconde inicialmente */
     }
 
-    #videos ul {
-        text-align: justify; /* Lista com textos justificados */
-        padding-left: 20px; /* Espaçamento interno para alinhar os itens */
-        margin-bottom: 20px; /* Espaçamento inferior */
-    }
-
-    #videos ul li {
-        margin-bottom: 10px; /* Espaçamento entre itens da lista */
+    /* Exibe ao clicar */
+    .section-content.active {
+        display: flex; /* Exibe o conteúdo */
+        flex-direction: column; /* Organiza o conteúdo verticalmente */
+        gap: 20px; /* Espaçamento entre os elementos */
     }
 }
 
