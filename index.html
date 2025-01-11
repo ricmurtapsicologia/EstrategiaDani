@@ -168,14 +168,15 @@
         text-align: justify;
     }
 
-    iframe {
-        width: 300px; /* Ajusta a largura do vídeo real para caber no box */
-        height: 185px; /* Define a altura proporcional para o box */
-        max-width: 100%; /* Garante que o vídeo nunca ultrapasse 100% da largura da tela */
-        display: block; /* Garante que o vídeo fique como um bloco */
+  iframe {
+        width: 90%; /* Ajusta a largura para 90% da tela */
+        max-width: 300px; /* Limita a largura máxima a 300px */
+        height: calc(300px * 0.618); /* Altura proporcional à largura (proporção áurea) */
+        display: block; /* Garante que o vídeo fique como bloco */
         margin: 0 auto; /* Centraliza o vídeo horizontalmente */
         border-radius: 8px; /* Bordas arredondadas */
-        overflow: hidden; /* Remove qualquer excesso visível */
+        overflow: hidden; /* Remove qualquer conteúdo fora do box */
+    }
     }
     #videos .section-content p {
         text-align: justify; /* Texto justificado */
