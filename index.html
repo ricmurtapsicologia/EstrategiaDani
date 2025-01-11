@@ -168,14 +168,16 @@
         text-align: justify;
     }
 
-    iframe {
-        width: 90%; /* Ajusta o vídeo para ocupar toda a largura disponível */
-        max-width: 560px; /* Limita a largura máxima */
-        height: 150px; /* Mantém a proporção */
-        display: block; /* Garante que o vídeo fique como um bloco */
-        margin: 0 auto; /* Centraliza o vídeo horizontalmente */
-        border-radius: 8px; /* Bordas arredondadas */
-    }
+   iframe {
+    width: 90%; /* Ajusta o vídeo para ocupar toda a largura disponível */
+    max-width: 560px; /* Limita a largura máxima */
+    height: 150px !important; /* Define uma altura fixa e força sua aplicação */
+    display: block; /* Garante que o vídeo fique como um bloco */
+    margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que não haja conteúdo fora do iframe visível */
+}
+
 
     #videos .section-content p {
         text-align: justify; /* Texto justificado */
